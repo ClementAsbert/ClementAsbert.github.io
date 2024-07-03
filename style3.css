@@ -14,11 +14,11 @@
   z-index: 2;
 }
 .title-content h1 {
-  font-size: 5vw;
+  font-size: 3.5rem;
 }
 
 .title-content h5 {
-  font-size: 2vw;
+  font-size: 1.5rem;
 }
 
 .title-content h1,
@@ -95,7 +95,7 @@
 
 .start-visit {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 body {
