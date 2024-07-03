@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: var(--body-backgroud-color);
+  color: #434343;
+  font-family: var(--font-family-text);
+}
+
+h1 {
+  font-family: var(--font-family-title);
+}
+
+.hero-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.custom-carousel {
+  width: 70%; /* Fixed width for the carousel */
+  max-width: 800px; /* Maximum width for larger screens */
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 300px; /* Fixed height for the carousel */
+}
+
+.carousel-item {
+  height: 100%; /* Ensure each item fills the carousel height */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+.description,
+.map-section {
+  padding: 20px;
+}
+
+.description h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 1.2rem;
+}
+
+.map-container {
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    height: 40vh;
+  }
+
+  .description h2 {
+    font-size: 2rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  .custom-carousel {
+    width: 90%;
+  }
+}
