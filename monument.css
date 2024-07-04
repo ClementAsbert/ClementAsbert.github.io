@@ -38,6 +38,20 @@ body {
     }
   }
   
+  /* Styles pour le carrousel */
+  #carouselExampleIndicators {
+    width: 100%; /* Largeur définie pour le carrousel */
+    margin: 0 auto; /* Centre le carrousel horizontalement */
+    background-color: var(--primary-color); /* Couleur de fond derrière les marges du carrousel */
+    padding: 10px; /* Espacement intérieur pour le contenu du carrousel */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Les images du carrousel occupent 100% de la largeur du conteneur */
+    height: 50vh; /* Hauteur fixe équivalente à 50% de la hauteur de la vue */
+    object-fit: cover; /* Ajuste la taille de l'image pour couvrir le conteneur */
+  }
+  
   /* Styles pour les boutons */
   .btn-next {
     margin-top: 20px;
