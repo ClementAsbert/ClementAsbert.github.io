@@ -5,7 +5,7 @@
 }
 .about-image {
   flex: 1;
-  background-image: url("c6ea1a45-988f-4b81-ad12-d0af0988bac9.jpg"); /* Remplacez 'your-image.jpg' par le chemin de votre image */
+  background-image: url("../img/c6ea1a45-988f-4b81-ad12-d0af0988bac9.jpg"); /* Remplacez 'your-image.jpg' par le chemin de votre image */
   background-size: cover;
   background-position: center;
 }
