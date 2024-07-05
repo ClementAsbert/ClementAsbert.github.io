@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,17 +7,60 @@
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet" />
-    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="../css/style3.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100&display=swap"
       rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="variable.css" />
+    <link rel="stylesheet" href="../css/variable.css" />
     <title>AREMS</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">Medina Sousse</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                Monuments
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="ribat.html">Le Ribat</a>
+                <a class="dropdown-item" href="grande_mosquee.html"
+                  >La Grande Mosquée</a
+                >
+                <a class="dropdown-item" href="#">La Mosquée Bou Ftata</a>
+                <a class="dropdown-item" href="#">La Casbah</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aPropos.html">À propos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 p-0">
@@ -29,19 +73,19 @@
               <div class="carousel-item active">
                 <img
                   class="d-block w-100"
-                  src="5905e19f-cce9-4176-9591-f7163cbbe3fd.jpg"
+                  src="../img/19f19060-2d3d-4a9d-84da-bb35e05bffdf.jpg"
                   alt="First slide" />
               </div>
               <div class="carousel-item">
                 <img
                   class="d-block w-100"
-                  src="medinadesouss-200919-1.jpg"
+                  src="../img/968ba3ec-c86d-4e89-bb4d-2281fbf48e7f.jpg"
                   alt="Second slide" />
               </div>
               <div class="carousel-item">
                 <img
                   class="d-block w-100"
-                  src="medina2.jpeg"
+                  src="../img/c6ea1a45-988f-4b81-ad12-d0af0988bac9.jpg"
                   alt="Third slide" />
               </div>
             </div>
@@ -87,18 +131,20 @@
             <button class="arrow-button">
               <div class="arrow-down"></div>
             </button>
-            <a href="#"><p class="start-visit">Commencer la visite</p></a>
+            <a href="ribat.html"
+              ><p class="start-visit">Commencer la visite</p></a
+            >
           </div>
           <div class="partner-logos">
-            <img src="epi.png" alt="Partner 1" class="img-fluid partner-logo" />
+            <img src="../img/epi.png" alt="Partner 1" class="img-fluid mx-2" />
             <img
-              src="esiea-logo.png"
+              src="../img/esiea-logo.png"
               alt="Partner 2"
-              class="img-fluid partner-logo" />
+              class="mg-fluid mx-2" />
             <img
-              src="186489855_4091993964214757_4481731711065158020_n.jpg"
+              src="../img/186489855_4091993964214757_4481731711065158020_n.jpg"
               alt="Partner 3"
-              class="img-fluid partner-logo" />
+              class="mg-fluid mx-2" />
           </div>
         </div>
       </div>
